@@ -171,19 +171,21 @@ h5 {
     display: block;
     padding-top: 16px;
   }
+  
+  .nav-links .nav-mobile:hover {
+    cursor: pointer;
+  }
+  
   .nav-links .nav-mobile span {
     top: -6px;
   }
   
   .nav-links .nav-mobile a li {
     display: none;
+    bottom: -250px;
     text-transform: uppercase;
     padding: 8px 32px;
     text-align: center;
-  }
-  
-  .nav-links .nav-mobile:hover a li {
-    display: block;
   }
   
   .nav-links .nav-mobile a li:hover {
