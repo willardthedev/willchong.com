@@ -21,23 +21,27 @@ h5 {
 
 .page-header {
   text-align: center;
-  margin: 30px 0 10px;
-  padding: 0;
+  padding: 30px 0 10px;
+  margin: 0;
   border: none;
+  background-color: #fff;
+/*  background-image: url('../img/pattern-cartographer.png');*/
 }
 
 .page-header h1 {
   margin-bottom: 8px;
+  color:#000;
 }
 
 .page-header h5 {
   margin-top: 0;
+   color:#000;
   margin-bottom: 16px;
 }
 
 
 .nav-links {
-  background-color: #aaa;
+  background-color: #333;
   padding: 0;
   text-align: center;
 }
@@ -46,6 +50,8 @@ h5 {
   list-style: none;
   margin: 0;
   padding: 0;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
 }
 
 .nav-links .nav-desktop a li {
@@ -53,6 +59,7 @@ h5 {
   text-transform: uppercase;
   padding: 8px 32px;
   text-align: center;
+  color: #fff;
 }
 
 .nav-links .nav-desktop a li:hover {
@@ -123,11 +130,27 @@ h5 {
 }
 
 
-#video .main-video {
-  background-color: #aaa;
-  height:500px;
-  margin-bottom: 16px;
+#video .col-sm-12 .main-video {
+  position: relative;
 }
+
+#video .col-sm-12 .main-video img {
+  position:relative;
+/*  background: url('../img/laptop.png') no-repeat;*/
+  width: 100%;
+  height: auto;
+  z-index:10;
+}
+
+#video .col-sm-12 .main-video .thevideo {
+  position: relative;
+  background-color: #aaa;
+/*  width: 694px;*/
+/*  margin: -520px auto 100px;*/
+/*  height: 432px;*/
+  z-index: 1;
+}
+
 
 #video .video-list ul {
   list-style: none;
@@ -170,6 +193,7 @@ h5 {
   .nav-links .nav-mobile {
     display: block;
     padding-top: 16px;
+    overflow: hidden;
   }
   
   .nav-links .nav-mobile:hover {
@@ -182,7 +206,6 @@ h5 {
   
   .nav-links .nav-mobile a li {
     display: none;
-    bottom: -250px;
     text-transform: uppercase;
     padding: 8px 32px;
     text-align: center;
