@@ -35,7 +35,7 @@ h5 {
 
 .page-header h5 {
   margin-top: 0;
-   color:#000;
+  color:#000;
   margin-bottom: 16px;
 }
 
@@ -131,24 +131,21 @@ h5 {
 
 
 #video .col-sm-12 .main-video {
-  position: relative;
-}
-
-#video .col-sm-12 .main-video img {
   position:relative;
-/*  background: url('../img/laptop.png') no-repeat;*/
-  width: 100%;
-  height: auto;
-  z-index:10;
+  background: url('../img/laptop.png') no-repeat;
+  max-width: 866px;
+  margin: 0 auto;
+  height: 546px;
 }
 
 #video .col-sm-12 .main-video .thevideo {
   position: relative;
   background-color: #aaa;
-/*  width: 694px;*/
-/*  margin: -520px auto 100px;*/
-/*  height: 432px;*/
-  z-index: 1;
+  top: 66px;
+  width: 640px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
