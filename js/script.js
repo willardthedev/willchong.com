@@ -26,6 +26,20 @@ $( document ).ready(function() {
     var theTop = ($('.main-video').height()-$('.main-video .thevideo').height())*(66/146);
     $('.main-video .thevideo').css({'top': theTop+"px" });
 
+    //video list updating
+
+  $('.video-list ul li a').on('click',function(){
+    console.log($(this).attr('id'));
+    var whichVideo = $(this).attr('id');
+    var theYoutubeId;
+    $('.main-video .thevideo').empty();
+
+    if (whichVideo == "ob-video") {
+      theYoutubeId = "41NvopnwIq8";
+    }
+    
+    $('.main-video .thevideo').append('<iframe width="100%" height="100%" src="http://www.youtube.com/embed/'+theYoutubeId+'?rel=0&autohide=1" frameborder="0" allowfullscreen></iframe></div>')
+  });
   
   $(window).resize(function(){
     
