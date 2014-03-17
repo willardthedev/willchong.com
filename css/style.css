@@ -150,15 +150,33 @@ h5 {
   height: 252px;
   margin: 4px;
   box-sizing: border-box;
-  -webkit-transition:background-size 0.2s; /* For Safari 3.1 to 6.0 */
-  transition:background-size 0.2s;
+  -webkit-transition:border 0.2s; /* For Safari 3.1 to 6.0 */
+  transition:border 0.2s;
   background-size: 252px 252px;
 }
 
 #work .item-container .item:hover {
-  border: 6px solid #0A50A0;
+  border: 10px solid #0A50A0;
   cursor:pointer;
-  background-size: 280px 280px;
+/*  background-size: 280px 280px;*/
+}
+
+#work .item-container .item p {
+  margin: 0;
+  width: 252px;
+  position: absolute;
+  padding: 8px;
+  margin-top: 216px;
+  color: #fff;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #282828;
+  opacity: 0.65;
+}
+
+#work .item-container .item:hover p {
+  display:none;
 }
 
 .item.bento {
@@ -370,6 +388,7 @@ h5 {
 #showcase .text p:first-child {
   padding: 32px 16px;
   color: #282828;
+  margin-top: 20px;
 }
 
 

@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>willchong.com - Web Development &amp; Motion Graphics</title>
-
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/responsive-carousel.css" media="screen">
-    <link rel="stylesheet" href="css/responsive-carousel.fade.css" media="screen">
+    <link rel="stylesheet" href="css/flexslider.css" media="screen">
     <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

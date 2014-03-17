@@ -8,20 +8,22 @@
         
         <h1 class="section-title">Volkswagen.ca</h1>
         <div class="col-sm-6 col-sm-offset-3 main-image">
-          <div class="carousel arrows">
-			      <div>
-				      <img src="img/projects/vw-1.jpg">
-			      </div>
-			      <div>
-				      <img src="img/projects/vw-2.jpg">
-			      </div>
-			      <div>
-				      <img src="img/projects/vw-3.jpg">
-			      </div>
-			      <div>
-				      <img src="img/projects/vw-4.jpg">
-			      </div>
-	        </div>
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="img/projects/vw-1.jpg" />
+              </li>
+              <li>
+                <img src="img/projects/vw-2.jpg" />
+              </li>
+              <li>
+                <img src="img/projects/vw-3.jpg" />
+              </li>
+              <li>
+                <img src="img/projects/vw-4.jpg" />
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="col-sm-6 col-sm-offset-3 text">
           <p>My responsibilities with the <strong>Volkswagen Canada</strong> site mainly involve pushing regular updates of products and services live through the Adobe CQ5 Content Management System back-end. The site also contains custom pages built on <strong>PHP</strong> and <strong>mySQL</strong>, styled with <strong>CSS</strong> and <strong>Javascript</strong>. My team at Red Urban has taken great lengths to innovate and customize the integrated components of the site, as well as <strong>optimize</strong> the site for <strong>performance</strong> and create a more efficient update procedure. Occasionally, we repurpose custom builds or adaptations from Volkswagen Germany, USA, or Britain.</p>
@@ -35,17 +37,19 @@
         
         <h1 class="section-title">Keiths.ca</h1>
         <div class="col-sm-6 col-sm-offset-3 main-image">
-          <div class="carousel arrows">
-			      <div>
-				      <img src="img/projects/keiths-1.jpg">
-			      </div>
-			      <div>
-				      <img src="img/projects/keiths-2.jpg">
-			      </div>
-			      <div>
-				      <img src="img/projects/keiths-3.jpg">
-			      </div>
-	        </div>
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="img/projects/keiths-1.jpg" />
+              </li>
+              <li>
+                <img src="img/projects/keiths-2.jpg" />
+              </li>
+              <li>
+                <img src="img/projects/keiths-3.jpg" />
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="col-sm-6 col-sm-offset-3 text">
           <p>Alexander Keith's website underwent a complete redesign. From our designs and information architecture, we'd inherited the site that had be rebuilt with <strong>AngularJS</strong>. My key responsibilities on the site are updating and adding new sections to the build. I'd also created the beer brewing <strong>animations</strong> found in the "Brewing 101" section, using <strong>After Effects</strong> and Sprite.ly. <strong>GruntJS</strong> is the taskrunner used for readying files for deployment.</p>
@@ -59,17 +63,19 @@
         
         <h1 class="section-title">Drake General Store</h1>
         <div class="col-sm-6 col-sm-offset-3 main-image">
-          <div class="carousel arrows">
-			      <div>
-				      <img src="img/projects/drake-1.jpg">
-			      </div>
-			      <div>
-				      <img src="img/projects/drake-2.jpg">
-			      </div>
-			      <div>
-				      <img src="img/projects/drake-3.jpg">
-			      </div>
-	        </div>
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="img/projects/drake-1.jpg" />
+              </li>
+              <li>
+                <img src="img/projects/drake-2.jpg" />
+              </li>
+              <li>
+                <img src="img/projects/drake-3.jpg" />
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="col-sm-6 col-sm-offset-3 text">
           <p>The Drake General Store's website was looking for a major redesign to match their change in branding. Additionally, they were looking to increase their web presence and online sales. We took their previous site (built with Shopify) and redesigned and rebuilt it with <strong>Magento</strong>. We focused on creating a stronger visual presence of their products on the site, as well as more effective <strong>social media integration</strong> on their homepage. We used <strong>Bootstrap</strong> for its responsive design support.</p>
@@ -83,17 +89,19 @@
         
         <h1 class="section-title">Pet Trust</h1>
         <div class="col-sm-6 col-sm-offset-3 main-image">
-          <div class="carousel arrows">
-			      <div>
-				      <img src="img/projects/pet-trust-1.jpg">
-			      </div>
-			      <div>
-				      <img src="img/projects/pet-trust-2.jpg">
-			      </div>
-			      <div>
-				      <img src="img/projects/pet-trust-3.jpg">
-			      </div>
-	        </div>
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="img/projects/pet-trust-1.jpg" />
+              </li>
+              <li>
+                <img src="img/projects/pet-trust-2.jpg" />
+              </li>
+              <li>
+                <img src="img/projects/pet-trust-3.jpg" />
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="col-sm-6 col-sm-offset-3 text">
           <p>The Pet Trust foundation was looking for a website that would mainly feature their promotional video raising awareness for pet cancers. The site was designed to serve as additional content to the video, as well as a platform to accept donations to the cause. I built the site using <strong>Bootstrap</strong>, and added some fun, interactive video features using <strong>Popcorn.js</strong>.</p>
@@ -133,17 +141,19 @@
         
         <h1 class="section-title">Bento Sushi</h1>
         <div class="col-sm-6 col-sm-offset-3 main-image">
-          <div class="carousel arrows">
-			      <div>
-				      <img src="img/projects/bento-1.jpg">
-			      </div>
-			      <div>
-				      <img src="img/projects/bento-2.jpg">
-			      </div>
-			      <div>
-				      <img src="img/projects/bento-3.jpg">
-			      </div>
-	        </div>
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="img/projects/bento-1.jpg" />
+              </li>
+              <li>
+                <img src="img/projects/bento-2.jpg" />
+              </li>
+              <li>
+                <img src="img/projects/bento-3.jpg" />
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="col-sm-6 col-sm-offset-3 text">
           <p>Bento Sushi was looking to redesign their website to emphasize their products as well as nutritional value. This was one of my very first website projects, and my key responsibilities involved <strong>CSS</strong> layouts and integration with <strong>Drupal</strong>. I also created the <strong>cinemagraphs</strong> featured on the menu page.</p>
@@ -157,14 +167,16 @@
         
         <h1 class="section-title">Type Books</h1>
         <div class="col-sm-6 col-sm-offset-3 main-image">
-          <div class="carousel arrows">
-			      <div>
-				      <img src="img/projects/type-1.jpg">
-			      </div>
-			      <div>
-				      <img src="img/projects/type-2.jpg">
-			      </div>
-	        </div>
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="img/projects/type-1.jpg" />
+              </li>
+              <li>
+                <img src="img/projects/type-2.jpg" />
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="col-sm-6 col-sm-offset-3 text">
           <p>A simple website created to host the incredible stop motion video titled "The Joy of Books".</p>
@@ -178,17 +190,19 @@
         
         <h1 class="section-title">The Bessies</h1>
         <div class="col-sm-6 col-sm-offset-3 main-image">
-          <div class="carousel arrows">
-			      <div>
-				      <img src="img/projects/bessies-1.jpg">
-			      </div>
-			      <div>
-				      <img src="img/projects/bessies-2.jpg">
-			      </div>
-			      <div>
-				      <img src="img/projects/bessies-3.jpg">
-			      </div>
-	        </div>
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="img/projects/bessies-1.jpg" />
+              </li>
+              <li>
+                <img src="img/projects/bessies-2.jpg" />
+              </li>
+              <li>
+                <img src="img/projects/bessies-3.jpg" />
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="col-sm-6 col-sm-offset-3 text">
           <p>A simple website created to showcase some amazing work done in 2012 in digital advertising.</p>

@@ -1,5 +1,10 @@
 $( document ).ready(function() {
   
+  console.log('Hello there, welcome to my source!');
+  console.log('Feel free to look around, I\'m sure you won\'t find anything out of the ordinary.');
+  console.log('But if you wish to provide some constructive criticism, you can reach me at me@willchong.com');
+  console.log('Cheers, Will.')
+  
   var mobileNavOpen = false;
     
   $('.nav-mobile').on('click', function() {
@@ -59,7 +64,7 @@ $( document ).ready(function() {
         break;
     }
     
-    $('.main-video .thevideo').append('<iframe width="100%" height="100%" src="http://www.youtube.com/embed/'+theYoutubeId+'?rel=0&autohide=1&autoplay=1" frameborder="0" allowfullscreen></iframe></div>')
+    $('.main-video .thevideo').append('<iframe width="100%" height="100%" src="http://www.youtube.com/embed/'+theYoutubeId+'?rel=0&autohide=1&autoplay=1&html5=1" frameborder="0" allowfullscreen></iframe></div>')
   });
   
   //see more work toggle
@@ -87,7 +92,7 @@ $( document ).ready(function() {
   
   
   //carouseling
-  $( ".carousel" ).carousel();
+   $('.flexslider').flexslider();
   
   $('.about-img').hover(
   function() {
