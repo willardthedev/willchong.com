@@ -77,7 +77,8 @@ $( document ).ready(function() {
       $('.toggle-hide').addClass('visible');
       $('#work .see-more').html('');
       $('#work .see-more').html('See Less <span class="glyphicon glyphicon-minus"></span>');
-      $('body,html').animate({'scrollTop': 740}, 500);
+      var scrollBackWork = $('.item.bento').offset().top - 32;
+      $('body,html').animate({'scrollTop': scrollBackWork}, 500);
       extraWork = true;
     } else if (extraWork == true) {
       $('.toggle-hide').removeClass('visible');

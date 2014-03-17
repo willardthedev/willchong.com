@@ -9,7 +9,6 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/flexslider.css" media="screen">
@@ -24,21 +23,23 @@
   </head>
   <body>
       <div class="page-header">
-        <h1>willchong.com</h1>
+        <a href="index.php"><h1>William Chong</h1></a>
         <h5>Web Development + Motion Graphics</h5>
       </div>
       <div class="nav-links">
         <ul class="nav-desktop">
           <a href="index.php"><li>Work</li></a>
+          <a href="index.php#video"><li>Video</li></a>
           <a href="index.php#about"><li>About</li></a>
-          <a href="index.php#video"><li>Videos</li></a>
           <a href="index.php#contact"><li>Contact</li></a>
+          <a href="index.php#links"><li>Links</li></a>
         </ul>
         <ul class="nav-mobile"><span class="glyphicon glyphicon-chevron-down"></span>
           <a href="index.php"><li>Work</li></a>
+          <a href="index.php#video"><li>Video</li></a>
           <a href="index.php#about"><li>About</li></a>
-          <a href="index.php#video"><li>Videos</li></a>
           <a href="index.php#contact"><li>Contact</li></a>
+          <a href="index.php#links"><li>Link</li></a>
         </ul>
       </div>
       

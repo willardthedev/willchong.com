@@ -18,18 +18,8 @@
         <h3 class="see-more">See More <span class="glyphicon glyphicon-plus"></span></h3>
       </div>
       
-      <div class="row" id="about">
-        <h1 class="col-sm-12 section-title">About</h1>
-        <div class="col-sm-6 about-left">
-          <img src="img/me-1.jpg" class="img-circle about-img">
-        </div>
-        <div class="col-sm-6 about-right">
-          <p>Why hello there, my name is William Chong. I've been web developing out of Toronto since 2010. I enjoy working with motion graphics &amp; video editing. I'm an avid basketball fanatic. And despite not being very descriptive of myself, I'm all for a friendly chat, so feel free to <a href="index.php#contact">contact me</a>!</p>
-        </div>
-      </div>
-      
       <div class="row" id="video">
-        <h1 class="col-sm-12 section-title">Videos</h1>
+        <h1 class="col-sm-12 section-title">Video</h1>
         <div class="col-sm-12">
           <div class="main-video">
             <div class="thevideo"><iframe width="100%" height="100%" src="http://www.youtube.com/embed/41NvopnwIq8?rel=0&autohide=1&html5=1" frameborder="0" allowfullscreen></iframe></div>
@@ -49,10 +39,21 @@
         </div>
       </div>
       
+      
+      <div class="row" id="about">
+        <h1 class="col-sm-12 section-title">About</h1>
+        <div class="col-sm-6 about-left">
+          <img src="img/me-1.jpg" class="img-circle about-img">
+        </div>
+        <div class="col-sm-6 about-right">
+          <p>Why hello there, my name is William Chong. I've been web developing out of Toronto since 2010. I enjoy working with motion graphics &amp; video editing. I'm an avid basketball fanatic. So if you want to chat about coding, wiggling and tweening, or the NBA, feel free to <a href='&#109;&#97;i&#108;to&#58;me%4&#48;willc%&#54;8on%67%&#50;Eco&#37;&#54;D'>email me</a>.</p>
+        </div>
+      </div>
+      
       <div class="row" id="contact">
         <h1 class="col-sm-12 section-title">Contact</h1>
-        <p>You can reach me at <a href='&#109;&#97;i&#108;to&#58;me%4&#48;willc%&#54;8on%67%&#50;Eco&#37;&#54;D'>me&#64;&#119;illchong&#46;com</a>!</p>
-        <p>Or on <a href="http://ca.linkedin.com/pub/william-chong/27/166/740/" target="_blank">LinkedIn</a>!</p>
+        <p>You can reach me at <a href='&#109;&#97;i&#108;to&#58;me%4&#48;willc%&#54;8on%67%&#50;Eco&#37;&#54;D'>me&#64;&#119;illchong&#46;com</a>.</p>
+        <p>Or on <a href="http://ca.linkedin.com/pub/william-chong/27/166/740/" target="_blank">LinkedIn</a>.</p>
         <!-- <form>
                   <label class="col-sm-6 col-sm-offset-3">Subject</label>
                   <input class="col-sm-6 col-sm-offset-3" type="text">

@@ -1,7 +1,7 @@
     <footer>
       <div class="row" id="links">
         <h1 class="col-sm-12 section-title">Links</h1>
-        <div class="col-sm-2 col-sm-offset-5 links-left">
+        <div class="col-sm-4 col-sm-offset-4">
           <ul>
             <li><a href='&#109;&#97;i&#108;to&#58;me%4&#48;willc%&#54;8on%67%&#50;Eco&#37;&#54;D'>me&#64;&#119;illchong&#46;com</a></li>
             <li><a href="http://ca.linkedin.com/pub/william-chong/27/166/740/" target="_blank">williamchong | linkedin</a></li>
@@ -9,14 +9,6 @@
             <li><a href="https://vimeo.com/user11554079/videos" target="_blank">wchong | vimeo</a></li>
           </ul>
         </div>
-        <!-- <div class="col-sm-2 links-right">
-                  <ul>
-                    <li><a href="" target="_blank"> Link One</a></li>
-                    <li><a href="" target="_blank"> Link One</a></li>
-                    <li><a href="" target="_blank"> Link One</a></li>
-                    <li><a href="" target="_blank"> Link One</a></li>
-                  </ul>
-                </div> -->
       </div>
     </footer>
 
